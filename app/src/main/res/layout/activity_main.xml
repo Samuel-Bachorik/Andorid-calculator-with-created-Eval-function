@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.52">
+
+        <Button
+            android:id="@+id/sqrt"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="√"
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/left"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="("
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/right"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text=")"
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/times"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="×"
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/seven"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="7"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/eight"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="8"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/nine"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="9"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/divide"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="÷"
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/four"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/five"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="5"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/six"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="6"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/minus"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="-"
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/one"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/two"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="2"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/three"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="3"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/plus"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="+"
+            android:textColor="#398320"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/clear"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="C"
+            android:textColor="#EA5E1E"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/zero"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="0"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/decimalPoint"
+            android:backgroundTint="#323131"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="."
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/equals"
+            android:backgroundTint="#398320"
+            android:drawablePadding="5dp"
+            android:onClick="onButtonClick"
+            android:text="="
+            android:textSize="35sp" />
+
+    </GridLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="340dp"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout"
+        app:layout_constraintTop_toBottomOf="@+id/resultBar"
+        app:layout_constraintVertical_bias="0.47000003" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#323131"
+        android:onClick="onButtonClick"
+        android:text="&lt;-"
+        android:textColor="#398320"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultBar"
+        app:layout_constraintVertical_bias="0.966"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/resultBar"
+        android:layout_width="356dp"
+        android:layout_height="133dp"
+        android:autofillHints="d"
+        android:backgroundTint="#00B8B4B4"
+
+        android:drawableTint="#AF3030"
+        android:ems="10"
+        android:foregroundTint="#9E3535"
+        android:hint="Operation"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#B83737"
+        android:outlineSpotShadowColor="#AF4D4D"
+        android:shadowColor="#EA4848"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#989797"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
