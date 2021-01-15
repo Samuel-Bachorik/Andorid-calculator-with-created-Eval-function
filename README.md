@@ -5,11 +5,12 @@ This calculator is object oriented project. Buttons have Abstract class with con
 Operator buttons have its own Abstract class.
 Button equals (=) calls Eval function...
 
-This calculator solves mathematical problems thanks to the eval function created by me,  Eval files - (Calculator, Spliiter, BracketSplitter)
+This calculator solves mathematical problems thanks to the eval function created by me,  Eval java classes - (Calculator, Spliiter, BracketSplitter)
 My Eval function is part of this repository.
 
 Calculator preview:
 
 <a href="https://ibb.co/VqBcWkv"><img src="https://i.ibb.co/RDHkpJC/apk-preview2.jpg" alt="apk-preview2" border="0"></a>)
 
-[#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+
+<p style="color:red">This is a paragraph.</p>
