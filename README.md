@@ -1,2 +1,3 @@
-# Andorid-Calculator222
+# Object oriented Andorid calculator
 Calculator in Java
+
