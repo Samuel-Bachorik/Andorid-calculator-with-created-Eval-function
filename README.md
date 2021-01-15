@@ -10,4 +10,4 @@ My Eval function is part of this repository.
 
 Calculator preview:
 
-(<a href="https://ibb.co/VqBcWkv"><img src="https://i.ibb.co/RDHkpJC/apk-preview2.jpg" alt="apk-preview2" border="0"></a>)
+<a href="https://ibb.co/VqBcWkv"><img src="https://i.ibb.co/RDHkpJC/apk-preview2.jpg" alt="apk-preview2" border="0"></a>)
